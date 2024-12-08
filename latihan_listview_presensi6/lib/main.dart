@@ -4,6 +4,7 @@ void main() => runApp(MaterialApp(
       theme: ThemeData(
         primaryColor: const Color.fromARGB(255, 34, 24, 21),
       ),
+      debugShowCheckedModeBanner: false,
       home: MainApp(),
     ));
 
